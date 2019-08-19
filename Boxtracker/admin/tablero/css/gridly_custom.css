@@ -1,0 +1,59 @@
+/*GRIDLY*/
+
+
+  .gridly {
+    position: relative;
+    /*width: 1280px !important;*/
+    width: 100% !important;
+    min-height: 720px !important;
+
+  }
+  .brick.small {
+    /*width: 160px;
+    height: 180px;*/
+    width: 120px;
+    height: 140px;
+  }
+  .brick.medium {
+    /*width: 320px;
+    height: 180px;*/
+    width: 230px;
+    height: 140px;
+  }
+  .brick.large {
+    /*width: 320px;
+    height: 540px;*/
+    width: 230px;
+    height: 430px;
+  }
+  .brick.extra_large {
+    /*width: 800px;
+    height: 180px;*/
+    width: 600px;
+    height: 180px;
+  }
+.brick {
+  float: left;
+  cursor: move;/*
+  margin-right: 20px;
+  margin-bottom: 20px;*/
+  border: 1px solid;
+  text-align: center;
+  line-height: 160px;
+  font-weight: bold;
+  text-decoration: underline;
+  width: 100px !important;
+  height: 100px !important;
+}
+.brick .delete{
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}

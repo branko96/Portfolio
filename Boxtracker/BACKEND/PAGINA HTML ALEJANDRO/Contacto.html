@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>BoxTracker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="./CSS/style.css">
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<!--<link href="images/icon.svg" rel="mask-icon" color="#3b5998" sizes="any"/>-->
+		<!--<link rel="shortcut icon" type="image/bmp" href="/images/favicon.bmp" />-->
+	</head>
+	<body class="" style="background: #EAEAEA">
+		
+		<!-- Menu de la pagina -->
+		<div>
+			<nav id="nav">
+				<a href="index.html" class="logo">BoxTracker</a>
+				<ul>
+					<li class="current"><a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="Servicios.html">Servicios</a>
+
+					</li>
+					<li><a href="Nosotros.html">Nosotros</a></li>
+					<li><a class="activado" href="Contacto.html">Contacto</a></li>
+					
+				</ul>
+			</nav>
+		</div>		
+
+		<!--Contenido-->
+
+		<div id="footer-wrapper" class="wrapper margenSuperior" style=" height: 100%; background: #EAEAEA; padding: 6em 0 0em 0;">
+			
+			<div id="contacto" class="container">
+				
+				<div class="row 150%">
+					<div class="6u 12u(mobile)">
+						
+							<section>
+								<form role="form" action="" method="post" >
+									<div class="row 50%">
+										<div class="6u 12u(mobile)">
+											<input type="text" name="name" id="contact-name" placeholder="Nombre" />							
+
+										</div>
+										<div class="6u 12u(mobile)">
+											<input type="text" name="email" id="contact-email" placeholder="Email" />
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="12u">
+											<textarea name="message" id="contact-message" placeholder="Mensaje" rows="4"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="12u">
+											<ul class="actions">
+												
+												<input type="button" name="send" id="submit" value="Enviar" class="style1" id="c_enviar" onclick="cargaSendMail()">
+												<li><input type="reset" class="style2" value="Borrar" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+
+					</div>
+					<div class="6u 12u(mobile)" style="color: black">
+
+							<section class="feature-list small">
+								<div class="row">
+									<div class="6u 12u(mobile)">
+										<section>
+											<h3 class="icon fa-home seccionPiePagina">Dirección</h3>
+											<p class="seccionPiePagina">
+												San Lorenzo 2720<br />
+												(8000) Bahía Blanca<br />
+												Buenos Aires - Argentina.
+											</p>
+										</section>
+									</div>
+									<div class="6u 12u(mobile)">
+										<section>
+											<h3 class="icon fa-comment seccionPiePagina">Social</h3>
+											<p class="seccionPiePagina">
+												<!-- <a href="#">@Nombre</a><br />
+												<a href="#">linkedin.com/Nombre</a><br />
+												<a href="#">facebook.com/Nombre</a> -->
+												Linkedin<br/>
+												Alejandro Dominguez<br/>
+											</p>
+										</section>
+									</div>
+								</div>
+								<div class="row">
+									<div class="6u 12u(mobile)">
+										<section>
+											<h3 class="icon fa-envelope seccionPiePagina">Email</h3>
+											<p class="seccionPiePagina">
+												Alejandro Dominguez<br/>
+												adominguez@boxtracker.com.ar<br/><br/>
+												Gabriel Goicoechea<br/>
+												ggoicoechea@boxtracker.com.ar
+											</p>
+										</section>
+									</div>
+									<div class="6u 12u(mobile)">
+										<section>
+											<h3 class="icon fa-phone seccionPiePagina">Celular</h3>
+											<p class="seccionPiePagina">
+												Alejandro Dominguez<br/>
+												+549(291) 5758693<br/><br/>
+												Gabriel Goicoechea<br/>
+												+54(291) 4435650
+
+											</p>
+										</section>
+									</div>
+								</div>
+							</section>
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<!--Footer-->
+
+		<footer>
+	      <div class="container" Style="width: 100%; padding-top: 10px; text-align:center; margin-bottom: 15px; margin-top: 25px;">
+	        <p class="text-muted"> boxTracker - 2016 - Bahia Blanca / Buenos Aires / Argentina - Todos los derechos reservados</p>
+	      </div>
+	    </footer>
+
+		<!-- Scripts -->
+
+		<script src="JavaScript/contact_me.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/skel-viewport.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script src="JavaScript/jquery-latest.min.js"></script>
+	
+
+		<!--Script para el slider-->
+		<script src="./JavaScript/jquery.event.move.js"></script>
+		<script src="./JavaScript/jquery.event.swipe.js"></script>				
+		<script src="./JavaScript/unslider.min.js"></script>
+		<script>
+			if(window.chrome) {
+				$('.banner li').css('background-size', '100% 100%');
+			}
+			
+			$('.banner').unslider({
+				fluid: true,
+				dots: true,
+				speed: 700,
+				//delay: false
+			});
+		
+			//  Find any element starting with a # in the URL
+			//  And listen to any click events it fires
+			$('a[href^="#"]').click(function() {
+				//  Find the target element
+				var target = $($(this).attr('href'));
+				
+				//  And get its position
+				var pos = target.offset(); // fallback to scrolling to top || {left: 0, top: 0};
+				
+				//  jQuery will return false if there's no element
+				//  and your code will throw errors if it tries to do .offset().left;
+				if(pos) {
+					//  Scroll the page
+					$('html, body').animate({
+						scrollTop: pos.top,
+						scrollLeft: pos.left
+					}, 1000);
+				}
+				
+				//  Don't let them visit the url, we'll scroll you there
+				return false;
+			});
+			
+			var GoSquared = {acct: 'GSN-396664-U'};
+		</script>
+		<script src="JavaScript/tracker.js"></script>
+
+	</body>
+</html>

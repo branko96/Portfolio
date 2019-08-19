@@ -1,0 +1,53 @@
+      table.dataTable.nowrap th, table.dataTable.nowrap td {
+          white-space: normal !important;
+          word-break: break-word !important;
+      }
+      .dataTables_filter {
+          width: 100% !important;
+      }
+
+      .btn-alta-user{
+
+        float: right;
+
+      }
+
+      .div_submit{
+
+        margin-top: 2rem;
+
+      }
+
+      .btn-app{
+          height: 110px !important;
+          min-width: 152px !important;
+          padding: 2rem !important;
+          font-size: 23px !important;
+      }
+      .btn.btn-app>.badge{
+        font-size: 18px !important;
+      }
+      .btn.btn-app>.fa {
+          font-size: 40px !important;
+      }
+      .modal-dialog {
+          width: 715px;
+      }
+      .sw-disabled:hover{
+      	cursor: not-allowed;
+      }
+      .permisos{
+  	    padding: 5px;
+	    border: 1px solid;
+	    border-radius: 10px;
+      }
+      .div_permisos_contenedor{
+        margin-top: 4rem;
+        min-height: 150px;
+      }
+      .permiso_fila{
+        margin-top: 2rem;
+      }
+      .permiso_fila .btn-app{
+        margin: inherit !important;
+      }

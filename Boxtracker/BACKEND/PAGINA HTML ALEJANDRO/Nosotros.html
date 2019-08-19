@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>BoxTracker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="./CSS/style.css">
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<!--<link href="images/icon.svg" rel="mask-icon" color="#3b5998" sizes="any"/>-->
+		<!--<link rel="shortcut icon" type="image/bmp" href="/images/favicon.bmp" />-->
+	</head>
+	<body style="background: #EAEAEA;">
+		<!-- Menu de la pagina -->
+		<div>
+			<nav id="nav">
+				<a href="index.html" class="logo">BoxTracker</a>
+				<ul>
+					<li class="current"><a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="Servicios.html">Servicios</a>
+
+					</li>
+					<li ><a class="activado" href="Nosotros.html">Nosotros</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+		
+<!-- Footer -->
+
+				<div id="footer-wrapper" class="wrapper" style="margin-top:90px">
+					
+					<div id="nosotrosID" class="container" style="box-shadow: 2px 2px 5px #999; background: white;">
+
+						
+						<div class="row 150%" style="min-height:300px; color:Black; min-height: 300px; color: Black; padding: 30px 40px 0px 40px; text-align: justify;">
+							
+							<div style="padding: 0 0 40px 0;">
+								<p>
+									boxTracker es una empresa creada para cubrir las necesidades y puntos débiles encontrados en la mayoría de las Obras en las que han participado sus integrantes, en Empresas como Fluor Daniel, CH2MHILL, Skanska, YPF, y donde luego de una gran experiencia en la mayoría de las etapas de un proyecto lograron puntualizar herramientas de análisis que pueden ayudar a mejorar notablemente la experiencia en el área de Gestión y Programación poniendo al descubierto cualquier desvío y dando un gran soporte en la toma de decisiones.
+								</p>
+							</div>
+
+							<div style="padding: 0 0 20px 0;">
+								<img src="images/Nosotros/Alejandro.jpg" alt="Alejandro" style="height:100px;" class="imagenNosotros">
+								<div style="margin-top: 18px;" class="parrafoImagen">
+								<p>
+								<strong> Dominguez Alejandro Rubén:</br> </strong>
+
+								Amplia experiencia en el área de planificación de proyectos de gran escala. Trabaja en el rubro desde el año 1983. Ha desarrollado de forma exitosa trabajos relacionados a ingeniería, supervisión y planificación.
+								</p>
+								</div>
+							</div>
+
+							<div style="padding: 0 0 40px 0;">
+								<img src="images/Nosotros/Gabriel.jpg" alt="Gabriel" style="height:100px;" class="imagenNosotros">
+								<div style="margin-top: 18px;" class="parrafoImagen">
+								<p>
+								<strong> Goicoechea Ignacio Gabriel: <br/> </strong>
+
+								Amplia experiencia en el área de QA/QC de proyectos de gran escala. Trabaja en el rubro desde el año 1996. Ha desarrollado de forma exitosa trabajos relacionados a ingeniería, supervisión, materiales, QA/QC y planificación.
+								</p>
+								</div>
+							</div>
+
+							<div style="padding: 0 0 0 0;">
+							<p>
+							<strong>Personal propio y externo:<br/> </strong>
+							Nuestra empresa realiza trabajos de forma permanente con personal propio y externo el cual entiende y acompaña los objetivos de boxTracker. Realizando tareas de programación y análisis de sistemas, Planificación y Control de Costos entre otros.
+							</p>
+							</div>
+							<div style="padding: 25px 0 0 0; float:right">
+							<p>Visualizar la carpeta de presentación de la Empresa: <a href="Archivos/Servicios boxTracker Abr-2015 2.pdf" style="color: blue;">Servicios boxTracker</a></p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			<footer>
+		      <div class="container" Style="        width: 100%;    padding-top: 10px; text-align:center	">
+		        <p class="text-muted"> boxTracker - 2016 - Bahia Blanca / Buenos Aires / Argentina - Todos los derechos reservados</p>
+		      </div>
+		    </footer>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="JavaScript/jquery-latest.min.js"></script>
+		
+
+			<!--Script para el slider-->
+			<script src="./JavaScript/jquery.event.move.js"></script>
+			<script src="./JavaScript/jquery.event.swipe.js"></script>				
+			<script src="./JavaScript/unslider.min.js"></script>
+			<script>
+				if(window.chrome) {
+					$('.banner li').css('background-size', '100% 100%');
+				}
+				
+				$('.banner').unslider({
+					fluid: true,
+					dots: true,
+					speed: 700,
+					//delay: false
+				});
+			
+				//  Find any element starting with a # in the URL
+				//  And listen to any click events it fires
+				$('a[href^="#"]').click(function() {
+					//  Find the target element
+					var target = $($(this).attr('href'));
+					
+					//  And get its position
+					var pos = target.offset(); // fallback to scrolling to top || {left: 0, top: 0};
+					
+					//  jQuery will return false if there's no element
+					//  and your code will throw errors if it tries to do .offset().left;
+					if(pos) {
+						//  Scroll the page
+						$('html, body').animate({
+							scrollTop: pos.top,
+							scrollLeft: pos.left
+						}, 1000);
+					}
+					
+					//  Don't let them visit the url, we'll scroll you there
+					return false;
+				});
+				
+				var GoSquared = {acct: 'GSN-396664-U'};
+			</script>
+			<script src="JavaScript/tracker.js"></script>
+
+	</body>
+</html>

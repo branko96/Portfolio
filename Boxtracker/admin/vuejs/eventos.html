@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos</title>
+
+
+</head>
+<body>
+	<main>
+		<ul>
+			<li v-for="tarea in tareas">
+				{{ tarea }} 
+			</li>
+		</ul> 
+		<form id="form_nueva_tarea" v-on:submit.prevent="agregarTarea">
+			<input type="text" name="tarea_nueva" id="input_tarea" v-model="nuevaTarea" placeholder="Introduce tu tarea">
+
+			<button type="submit" >Enviar tarea</button>
+		</form>
+		
+
+		
+		<p>{{ $data }}</p>
+	</main>
+	<script type="text/javascript" src="js/vue.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/eventos.js"></script>
+</body>
+</html>

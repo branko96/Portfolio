@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e1ecde6-9a59-4e97-9be2-a1ed6928dd0d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inner</find>
+      <find>verificar_taget_periodos</find>
+      <find>owl</find>
+      <find>cant</find>
+      <find>cancelar</find>
+      <find>transi</find>
+      <find>var_dum</find>
+      <find>period</find>
+      <find>real</find>
+      <find>fecha_periodo_real</find>
+      <find>importar_real</find>
+      <find>can</find>
+      <find>arr</find>
+      <find>array_</find>
+      <find>init_carousel</find>
+      <find>verifi</find>
+      <find>array_c</find>
+      <find>cargar</find>
+      <find>volver</find>
+      <find>leer</find>
+      <find>async</find>
+      <find>fecha</find>
+      <find>nombre_</find>
+      <find>nombre</find>
+      <find>cargar_tablero_elegido</find>
+      <find>confirm</find>
+      <find>add</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1PWU1yokMa5ba6qQwL68rN52eKf" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e1ecde6-9a59-4e97-9be2-a1ed6928dd0d" name="Default Changelist" comment="" />
+      <created>1553119390754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553119390754</updated>
+      <workItem from="1553138086725" duration="424000" />
+      <workItem from="1554321082737" duration="2682000" />
+      <workItem from="1554324029838" duration="68000" />
+      <workItem from="1554324595360" duration="47000" />
+      <workItem from="1554325060497" duration="49000" />
+      <workItem from="1554325324587" duration="461000" />
+      <workItem from="1554325872897" duration="12000" />
+      <workItem from="1554327858619" duration="41000" />
+      <workItem from="1555117077042" duration="892000" />
+      <workItem from="1556137971405" duration="48000" />
+      <workItem from="1557266236060" duration="5744000" />
+      <workItem from="1557359514231" duration="671000" />
+      <workItem from="1557422253941" duration="1737000" />
+      <workItem from="1557608957688" duration="2545000" />
+      <workItem from="1557784320481" duration="3373000" />
+      <workItem from="1557948143427" duration="4283000" />
+      <workItem from="1557956107316" duration="34000" />
+      <workItem from="1559594940609" duration="5929000" />
+      <workItem from="1559616531268" duration="4797000" />
+      <workItem from="1559664881959" duration="1381000" />
+      <workItem from="1559698003660" duration="8718000" />
+      <workItem from="1559749409369" duration="599000" />
+      <workItem from="1559835583686" duration="1148000" />
+      <workItem from="1559928318032" duration="4034000" />
+      <workItem from="1560960957402" duration="316000" />
+      <workItem from="1560961312634" duration="574000" />
+      <workItem from="1560962043937" duration="381000" />
+      <workItem from="1560962455275" duration="189000" />
+      <workItem from="1560962809158" duration="376000" />
+      <workItem from="1561058613763" duration="599000" />
+      <workItem from="1561064881285" duration="933000" />
+      <workItem from="1561232263970" duration="6828000" />
+      <workItem from="1561492150385" duration="4101000" />
+      <workItem from="1562007049939" duration="7357000" />
+      <workItem from="1562964510214" duration="618000" />
+      <workItem from="1565274437614" duration="866000" />
+      <workItem from="1565356611063" duration="1285000" />
+      <workItem from="1565375386400" duration="1879000" />
+      <workItem from="1565377511573" duration="7841000" />
+      <workItem from="1565390489072" duration="944000" />
+      <workItem from="1565989136519" duration="1310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

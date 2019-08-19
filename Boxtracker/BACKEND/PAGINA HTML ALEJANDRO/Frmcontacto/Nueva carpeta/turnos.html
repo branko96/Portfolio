@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Barlovento</title>
+  <meta name="description" content="Natatorio Climatizado Barlovento">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+  <link href='//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css' rel='stylesheet' type='text/css'>
+
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&language=es"></script>
+  <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png"> 
+</head>
+<body>
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">Está utilizando un navegador <strong>obsoleto</strong>. Por favor, <a href="http://browsehappy.com/"> actualizar su navegador </ a> para mejorar su experiencia.</p>
+  <![endif]-->
+  
+  <!-- Header --> 
+  <div class="cbp-af-header">
+      <div class="cbp-af-inner">
+          <header>
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-3">
+                  <!-- Logo -->
+                  <hgroup>
+                    <h1>
+                      <a href="/index2.html">
+                        <img src="img/logoBarlovento.png" height="62" width="211" alt="Natatorio Barlovento">
+                      </a>
+                    </h1>
+                  </hgroup>
+                </div>
+                <div class="col-xs-9">      
+                  <!-- NavBar -->
+                  <nav>
+                    <ul class="nav-justified">
+                      <li><a href="index.html"><i class="fa fa-home fa-2x"></i>INICIO</a></li>
+                      <li><a href="institucional.html"><i class="fa fa-building fa-2x"></i>INSTITUCIONAL</a></li>
+                      <li><a href="turnos.html"><i class="fa fa-table fa-2x"></i>TURNOS</a></li>
+                      <li><a href="novedades.html"><i class="fa fa-bullhorn fa-2x"></i>NOVEDADES</a></li>
+                      <li><a href="actividades.html"><i class="fa fa-child fa-2x"></i>ACTIVIDADES</a></li>
+                      <li><a href="contacto.html"><i class="fa fa-envelope fa-2x"></i>CONTACTO</a></li>
+                    </ul>
+                  </nav>
+                </div>  
+              </div>
+            </div>
+          </header>
+      </div>
+  </div>
+  <!-- FIN Header --> 
+
+  <!-- Contenido -->
+  <div class="container">
+    <section class="bgContenido">
+      
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2><i class="fa fa-table"></i> Horarios de la Pileta</h2>
+        </div>
+       
+       <!-- Selector de Actividad 
+       <div class="col-xs-12 text-center">
+          <section id="btnTurnos">
+            <div class="btn-group">
+              <button id="btnTodo" type="button" class="btn btn-default">
+                <i class="fa fa-circle"></i> Todo
+              </button>
+              <button id="btnPiletaLibre" type="button" class="btn btn-default">
+                <i class="fa fa-circle"></i> Pileta Libre
+              </button>
+              <button id="btnProfAdultos" type="button" class="btn btn-default">
+                <i class="fa fa-circle"></i> Prof. Adultos
+              </button>
+              <button id="btnNinoAdulto" type="button" class="btn btn-default">
+                <i class="fa fa-circle"></i> Prof. Niño/Adulto<br><span>(Compartido)</span>
+              </button>
+              <button id="btnBuceo" type="button" class="btn btn-default">
+                <i class="fa fa-circle"></i> Buceo
+              </button>
+              <button id="btnGimnasia" type="button" class="btn btn-default">
+                <i class="fa fa-circle"></i> Gimn. Acuática
+              </button>
+            </div>
+          </section>
+
+          <div id="tablaHorarios">
+            <img id="imgHorarios" src="images/Tabla-Horarios.png" height="702" width="780">
+          </div>
+        </div><!-- Selector de Actividad -->
+        
+        <div id="tablaHorarios" class="col-xs-12">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIÉRCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+                <th>SÁBADO</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- 1 -->
+              <tr>
+                <td>7.00 - 9.00  P. Libre</td>
+                <td>7.00 - 8.30  P. Libre</td>
+                <td>7.00 - 9.00  P. Libre</td>
+                <td>@7.00 - 8.30  P. Libre</td>
+                <td>@7.00 - 8.30  P. Libre</td>
+                <td>8.00 - 9.00  P. Libre</td>
+              </tr>
+              <!-- 2 -->
+              <tr>
+                <td><div class="bgVioleta">9:00 - 10:00 XX</div></td>
+                <td><div class="bgVioleta">8:30 Gim.ac.</div></td>
+                <td><div class="bgVioleta">9:00 - 10:00 XX</div></td>
+                <td><div class="bgVioleta">8:30 Gim.ac.</div></td>
+                <td><div class="bgVioleta">9:00 - 10:00 XX</div></td>
+                <td>9.00 - 10.00  P. Libre</td>
+              </tr>
+              <!-- 3 -->
+              <tr>
+                <td>10:00 - 11:00 XX</td>
+                <td>9:30 - 10.30 XX</td>
+                <td>10:00 - 11:00 XX</td>
+                <td>9:30 - 10.30 XX</td>
+                <td>10:00 - 11:00 XX</td>
+                <td>10:00 - 11:00 XX</td>
+              </tr>
+              <!-- 4 -->
+              <tr>
+                <td></td>
+                <td>10.30 - 12.30 P. libre</td>
+                <td></td>
+                <td>10.30 - 12.30 P. libre</td>
+                <td></td>
+                <td>11:00 - 12:00 XX</td>
+              </tr>
+              <!-- 5 -->
+              <tr>
+                <td>11.00 - 14.30 P. libre</td>
+                <td></td>
+                <td>11.00 - 14.30 P. libre</td>
+                <td></td>
+                <td>11.00 - 14.30 P. libre</td>
+                <td>12.00 - 13.00 P. Libre</td>
+              </tr>
+              <!-- 6 -->
+              <tr>
+                <td></td>
+                <td><div class="bgVioleta">12:30 - 13:30 XX</div></td>
+                <td></td>
+                <td><div class="bgVioleta">12:30 - 13:30 XX</div></td>
+                <td></td>
+                <td>13.00 - 14.00  P. Libre</td>
+              </tr>
+              <!-- 7 -->
+              <tr>
+                <td></td>
+                <td><div class="bgVioleta">13:30 Gim.ac.</div></td>
+                <td></td>
+                <td><div class="bgVioleta">13:30 Gim.ac.</div></td>
+                <td></td>
+                <td>14:00 - 15:00 XX</td>
+              </tr>
+              <!-- 8 -->
+              <tr>
+                <td>14.30 - 15.30 XX</td>
+                <td>14.30 - 15.30 XX</td>
+                <td>14.30 - 15.30 XX</td>
+                <td>14.30 - 15.30 XX</td>
+                <td>14.30 - 15.30 XX</td>
+                <td>15.00 - 16.00  P. Libre</td>
+              </tr>
+              <!-- 9 -->
+              <tr>
+                <td><div class="bgVioleta">15:30 Gim.ac.</div></td>
+                <td>15.30 - 16.30 XX</td>
+                <td><div class="bgVioleta">15:30 Gim.ac.</div></td>
+                <td>15.30 - 16.30 XX</td>
+                <td><div class="bgVioleta">15:30 Gim.ac.</div></td>
+                <td>16.00 - 17.00 P. Libre</td>
+              </tr>
+              <!-- 10 -->
+              <tr>
+                <td>16.30 - 17.30 XX</td>
+                <td>16.30 - 17.30 XX</td>
+                <td>16.30 - 17.30 XX</td>
+                <td>16.30 - 17.30 XX</td>
+                <td>16.30 - 17.30 XX</td>
+                <td>17.00   Buceo</td>
+              </tr>
+              <tr>
+                <td>17:30 - 18:30 XX</td>
+                <td>17:30 - 18:30 XX</td>
+                <td>17:30 - 18:30 XX</td>
+                <td>17:30 - 18:30 XX</td>
+                <td>17:30 - 18:30 XX</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>18:30 - 19:30 XX</td>
+                <td>18:30 - 19:30 XX</td>
+                <td>18:30 - 19:30 XX</td>
+                <td>18:30 - 19:30 XX</td>
+                <td>18:30 - 19:30 XX</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>19:30 - 20:30 XX</td>
+                <td>19:30 - 20:30 XX</td>
+                <td>19:30 - 20:30 XX</td>
+                <td>19:30 - 20:30 XX</td>
+                <td>19:30 - 20:30 XX</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><div class="bgVioleta">20:30 - 21:30 XX</div></td>
+                <td><div class="bgVioleta">20:30 - 21:30 XX</div></td>
+                <td><div class="bgVioleta">20:30 - 21:30 XX</div></td>
+                <td><div class="bgVioleta">20:30 - 21:30 XX</div></td>
+                <td>20.30 -21.30 P. libre</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><div class="bgVioleta">21:30 - 22:30 XX</div></td>
+                <td><div class="bgVioleta">21:30 - 22:30 XX</div></td>
+                <td><div class="bgVioleta">21:30 - 22:30 XX</div></td>
+                <td><div class="bgVioleta">21:30 - 22:30 XX</div></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <hr>
+          <h3 class="text-center">
+            <span class="bgVioleta">XX Profesor</span> Adultos │
+            <span>XX Profesor</span> Niños y Adultos
+          </h3>
+        </div>
+
+      </div><!-- /row -->
+
+
+    </section>
+  </div><!-- FIN Contenido -->
+
+  <!-- PLANO -->
+  <div id="plano">
+    
+  </div>
+  <div id="planoText">
+    <section class="text-center">
+      <h4>Ubicado en un sector privilegiado de la ciudad <br>de fácil acceso y estacionamiento.</h4>
+      <address>
+        Corenfeld (Cuyo) 969, Bahía Blanca, Buenos Aires <br>
+        Teléfono: (0291) 488 - 3732
+      </address>
+    </section>
+  </div>
+  <!-- FIN Plano -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-9">
+          <p>
+            2014 © Todos los derechos reservados por Barlovento.
+            <a target="_blank" href="/ContentManager/registrarse.aspx">Administración</a>
+          </p>
+        </div>
+        <div class="col-xs-3">
+          <p><a href="#">Paradigma</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+
+  <script src="js/bootstrap.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+
+  <script src="js/classie.js"></script>
+  <script src="js/cbpAnimatedHeader.min.js"></script>
+  
+  <script src="js/funciones.js"></script>
+
+  <script type="text/javascript">
+    /* Botones Categorias */
+    $(document).ready(function(){
+      $('button#btnPiletaLibre').click(function(event) {
+        $('#imgHorarios').attr('src','images/tablasHorarios/thPiletaLibre.png');
+      });
+      $('button#btnProfAdultos').click(function(event) {
+        $('#imgHorarios').attr('src','images/tablasHorarios/thProfesorAdultos.png');
+      });
+      $('button#btnNinoAdulto').click(function(event) {
+        $('#imgHorarios').attr('src','images/tablasHorarios/thProfesorNinosAdultos.png');
+      });
+      $('button#btnBuceo').click(function(event) {
+        $('#imgHorarios').attr('src','images/tablasHorarios/thBuceo.png');
+      });
+      $('button#btnGimnasia').click(function(event) {
+        $('#imgHorarios').attr('src','images/tablasHorarios/thGimnasiaAcuatica.png');
+      });
+      $('button#btnTodo').click(function(event) {
+        $('#imgHorarios').attr('src','images/Tabla-Horarios.png');
+      });
+
+      $('#tablaHorarios table div.bgVioleta').parent().css('padding', '2px');
+
+
+
+    });
+  </script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+
+  </body>
+</html>

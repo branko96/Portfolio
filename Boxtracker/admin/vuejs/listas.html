@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listas</title>
+
+
+</head>
+<body>
+	<main>
+		<!-- ARRAY -->
+		<ul>
+			<li v-for="dia in dias">{{dia}}</li>
+		</ul>
+		<!-- ARRAY DE OBJETOS -->
+		<!-- <ul>
+			<li v-for="tarea in tareas">
+				{{ tarea.nombre }} 
+				<small>{{ tarea.prioridad }}</small>
+			</li>
+		</ul> -->
+		<!-- OBJETO -->
+		<ul>
+			<li v-for="(value, key, index) in persona">
+				{{index}}-{{key}}:{{value}}
+			</li>
+		</ul>
+		
+		<p>{{ $data }}</p>
+	</main>
+	<script type="text/javascript" src="js/vue.js"></script>
+	<script type="text/javascript" src="js/listas.js"></script>
+</body>
+</html>

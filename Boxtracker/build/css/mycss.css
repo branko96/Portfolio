@@ -1,0 +1,211 @@
+/*.nav-md .container.body .col-md-3.left_col {
+
+    width: 25% !important;
+
+}
+
+.left_col.scroll-view{
+
+	width: 100% !important;
+
+}
+
+.nav_title {
+
+    width: 100% !important;
+
+}
+
+.site_title {
+
+    font-size: 37px !important;
+
+}
+
+.site_title img {
+
+    width: 80px !important;
+
+}
+
+.nav-sm .container.body .col-md-3.left_col {
+
+    width: 100px !important;
+
+}
+
+.nav-sm .main_container .top_nav {
+
+    margin-left: 100px !important;
+
+}
+
+.nav-sm .navbar.nav_title {
+
+    width: 100px !important;
+
+}
+
+.nav-md .container.body .right_col {
+
+    margin-left: 25% !important;
+
+}
+
+.main_container .top_nav {
+
+    margin-left: 25% !important;
+
+}
+
+.nav-sm .nav.side-menu li a i {
+
+    font-size: 45px !important;
+
+}
+
+.nav-sm .container.body .right_col {
+
+    margin-left: 8% !important;
+
+}
+
+.site_title{
+
+    line-height: 0px !important;
+
+}
+
+.main_menu .fa {
+
+    width: 35px !important;
+
+    font-size: 31px !important;
+
+}
+
+.nav.side-menu>li>a{
+
+    font-size: 18px !important;
+
+}*/
+
+/*
+
+ESTILOS PALETA DE COLORES
+
+
+
+
+
+*/
+
+.btn-success {
+
+    background: #314A53 !important;
+
+    border: 1px solid #0c1b21 !important;
+
+}
+
+.btn-verde {
+
+    background: #10ba54 !important;
+
+    border: 1px solid #10ba54 !important;
+
+}
+
+.btn-primary {
+
+    background: #5cb85c !important;
+
+    border: 0px solid #212c2f !important;
+
+}
+
+.btn-danger {
+
+    background-color: #98A4A9 !important;
+
+    border-color: #6d8188 !important;
+
+}
+
+
+
+/* MENU */
+
+
+
+.main_menu .fa {
+
+    width: 41px !important;
+
+    font-size: 36px !important;
+
+}
+
+.nav.side-menu>li>a, .nav.child_menu>li>a {
+
+    font-size: 19px !important;
+
+    line-height: 19px !important;
+
+}
+
+.nombre_menu{
+
+    line-height: 35px !important;
+
+    margin-left: 5px !important;
+
+}
+
+
+
+
+
+.nav-sm .nombre_menu{
+
+    display: none !important;
+
+}
+
+
+
+.nav-sm .nav.side-menu>li {
+
+    height: 76px !important;
+
+}
+
+.nav-sm .menu_section>ul{
+
+    margin-top: 0px !important;
+
+}
+
+.nav-sm .nav.side-menu li a i {
+
+    font-size: 50px !important;
+
+    text-align: center;
+
+    width: 100% !important;
+
+    margin-bottom: 5px;
+
+}
+
+.nav-sm .site_title{
+
+    padding: 0px !important;
+
+}
+
+.nav-sm .site_title img{
+
+    width: 100% !important;
+
+}

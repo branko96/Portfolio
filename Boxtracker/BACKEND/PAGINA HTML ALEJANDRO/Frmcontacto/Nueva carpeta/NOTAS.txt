@@ -1,0 +1,21 @@
+﻿SOBRE EL PANEL VIEJO
+
+El panel de control esta actualmente deprecado, todas las modificaciones que se hagan deberian estar separadas de las cosas viejas, o reemplazarlas.
+
+PARA LAS COSAS NUEVAS
+
+* Para coneccion con la DB usar TinyORM (https://bitbucket.org/gosukiwi/tinyorm), ya incluido en la capa "Model"
+* Los WebServices nuevos van en /ContentManager/WebServices/
+* Para los modulos nuevos no usar WebServices viejos, ni Javascript de /ContentManager/js
+* No romper compatibilidad hacia atras, a lo sumo agregar cosas nuevas y dejar las viejas intactas
+* Usar NuGet para instalar paquetes nuevos
+
+PRACTICAS JAVASCRIPT
+
+Para todo el Javascript usar una funcion anonima autoejecutable para mantener limpio el espacio de nombres, e incluir el javascript al final del 
+body para mejorar el tiempo de carga de la pagina. Para cosas genericas usar/hacer un plugin de jQuery o jQuery UI.
+
+PRACTICAS ASP.NET
+
+Usar la capa de modelo para cualquier cosa que tenga que ver con la DB. 
+Para WYSIWYG usar el control CKEditor desde ASP.NET y no desde Javascript.
