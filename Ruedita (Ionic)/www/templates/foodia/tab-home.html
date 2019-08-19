@@ -1,0 +1,60 @@
+<ion-view hide-back-button="true" id="home-bk" class="home-page" title="La Tradicional Rueda" show-tabs>
+	<ion-nav-buttons side="left">
+		<!-- Toggle left side menu -->
+		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+	</ion-nav-buttons>
+	<ion-content class="has-footer home-bk">
+		<ion-slide-box  class="home-slider" on-slide-changed="slideHasChanged($index)">
+			<ion-slide>
+				<div class="slider-img">
+					<img actual-src="img/slider/3.jpg" ng-src="img/placeholder.png" alt="">
+				</div>
+			</ion-slide>
+			<ion-slide>
+				<div class="slider-img">
+					<img actual-src="img/slider/2.jpg" ng-src="img/placeholder.png" alt="">
+				</div>
+			</ion-slide>
+			<ion-slide>
+				<div class="slider-img">
+					<img actual-src="img/slider/1.jpg" ng-src="img/placeholder.png" alt="">
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+		<div class="ads-text">
+			<div class="inner clearfix">
+				<div class="title pull-left" ng-click="callPhone();"><i class="fa fa-phone-square" aria-hidden="true"></i>{{$root.appLanguage.ORDER_PHONE_TEXT}}</div>
+			</div>
+		</div>
+		<!--
+		<div class="home-menu">
+			<div class="menu-home-item">
+				<a href="#/tab/categories/all"><img actual-src="img/menuhome/{{language}}/menu.png" ng-src="img/placeholder.png"><div class="botones-home">MENU</div></a>
+			</div>
+			<div class="menu-home-item">
+				<a href="#/tab/destacados"><img actual-src="img/menuhome/{{language}}/destacados.png" ng-src="img/placeholder.png"></a>
+			</div>
+			<div class="menu-home-item">
+				<a href="#/tab/contactus"><img actual-src="img/menuhome/{{language}}/localizacion.png" ng-src="img/placeholder.png"></a>
+			</div>
+			<div class="menu-home-item">
+				<a href="#/tab/contacto"><img actual-src="img/menuhome/{{language}}/contacto.png" ng-src="img/placeholder.png"></a>
+			</div>
+
+
+		</div>
+		-->
+		<nav class="navigation">
+		<ul class="mainmenu">
+	  		<li><a href="#/tab/categories/all">{{$root.appLanguage.item_lista1}}<i class="fa fa-angle-right"></i> </a></li>
+		    <li><a href="#/tab/destacados">{{$root.appLanguage.item_lista2}}<i class="fa fa-angle-right"></i></a></li>
+		    <li><a href="#/tab/contactus">{{$root.appLanguage.item_lista3}}<i class="fa fa-angle-right"></i></a></li>
+		    <li><a href="#/tab/contacto">{{$root.appLanguage.item_lista4}}<i class="fa fa-angle-right"></i></a></li>
+		  </ul>
+		</nav>
+
+
+
+
+	</ion-content>
+</ion-view>

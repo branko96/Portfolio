@@ -1,0 +1,65 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.mercadopago.cordova.sdk": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-apprate": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-photo-viewer": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "130749830575",
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-email": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.doctaplay.latradicionalrueda"
+        }
+    }
+}

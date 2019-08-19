@@ -1,0 +1,58 @@
+<ion-view class="home-page" title="{{$root.appLanguage.FEATURED_MEALS}}" hide-tabs>
+
+	<ion-content class="has-footer">
+		<ion-slide-box  class="home-slider" on-slide-changed="slideHasChanged($index)">
+			<ion-slide>
+				<div class="slider-img">
+					<img actual-src="img/slider/3.jpg" ng-src="img/placeholder.png" alt="">
+				</div>
+			</ion-slide>
+			<ion-slide>
+				<div class="slider-img">
+					<img actual-src="img/slider/2.jpg" ng-src="img/placeholder.png" alt="">
+				</div>
+			</ion-slide>
+			<ion-slide>
+				<div class="slider-img">
+					<img actual-src="img/slider/1.jpg" ng-src="img/placeholder.png" alt="">
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+
+		<div class="product-list-slider-style ">
+
+			<ion-slides  options="options" slider="data.slider">
+				<ion-slide-page ng-repeat="product in productData" ng-if="$index % 3 == 0" >
+					<div class="product-item-slider-style animated zoomIn" ng-click="openProduct({{productData[$index].id}})">
+						<img actual-src="{{productData[$index].images[0].src}}" ng-src="img/placeholder.png">
+						<div class="meta text-center">
+							<h2 class="name" ng-bind-html="productData[$index].name"></h2>
+							<div class="on-sale" ng-if="product.on_sale">{{$root.appLanguage.PRODUCT_SALE_TEXT}}</div>
+							<div class="price text-center" ng-if="productData[$index].price_html" ng-bind-html="productData[$index].price_html"></div>
+							<div class="price text-center" ng-if="!productData[$index].price_html" price="{{productData[$index].price}}"></div>
+						</div>
+					</div>
+					<div ng-if="productData.length > ($index + 1)" class="product-item-slider-style animated zoomIn" ng-click="openProduct({{productData[$index + 1].id}})">
+						<img actual-src="{{productData[$index + 1].images[0].src}}" ng-src="img/placeholder.png">
+						<div class="meta text-center">
+							<h2 class="name" ng-bind-html="productData[$index + 1].name"></h2>
+							<!--<div class="on-sale" ng-if="product.on_sale">{{$root.appLanguage.PRODUCT_SALE_TEXT}}</div>-->
+							<div class="price text-center" ng-if="productData[$index + 1].price_html" ng-bind-html="productData[$index + 1].price_html"></div>
+							<div class="price text-center" ng-if="!productData[$index + 1].price_html" price="{{productData[$index + 1].price}}"></div>
+						</div>
+					</div>
+					<div ng-if="productData.length > ($index + 2)" class="product-item-slider-style animated zoomIn" ng-click="openProduct({{productData[$index + 2].id}})">
+						<img actual-src="{{productData[$index + 2].images[0].src}}" ng-src="img/placeholder.png">
+						<div class="meta text-center">
+							<h2 class="name" ng-bind-html="productData[$index + 2].name"></h2>
+							<!--<div class="on-sale" ng-if="product.on_sale">{{$root.appLanguage.PRODUCT_SALE_TEXT}}</div>-->
+							<div class="price text-center" ng-if="productData[$index + 2].price_html" ng-bind-html="productData[$index + 2].price_html"></div>
+							<div class="price text-center" ng-if="!productData[$index + 2].price_html" price="{{productData[$index + 2].price}}"></div>
+						</div>
+					</div>
+				</ion-slide-page>
+			</ion-slides>
+		</div>
+
+	</ion-content>
+</ion-view>
