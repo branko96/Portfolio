@@ -1,0 +1,1 @@
+<div class="alert alert-warning" role="alert">El Nº de tarjeta ya existe en la base de datos</div>

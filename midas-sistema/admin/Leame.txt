@@ -1,0 +1,13 @@
+02/04/2016
+
+Agregamos campo puntos Diarios y hora en la tabla movimientos
+
+Se comenzó a guardar los puntos restados en el campo PUNTOS SUMA
+
+Se incorporó en REPORTES modulo de exportación de moviemientos con filtro de fecha.
+
+06/10/2016
+
+Fix en sector de canjes (filtro x club en las consultas)
+Se agregó mostrar Nombre del Socio y puntos
+

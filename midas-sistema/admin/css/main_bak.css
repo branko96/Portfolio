@@ -1,0 +1,121 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+html,body{
+height:100%;
+}
+
+section#content{padding-bottom: 200px;}
+footer{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	background-color: #A4B4D5;
+	color: #fff;
+}
+
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+header{
+    background-color: #6c89c5;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #70d9d0;
+
+}
+
+.navbar-default{
+	background-color: #6C89C5 !important;
+border: 0px !important;
+}
+
+.navbar{
+	background-image: none !important;
+background-repeat: none !important;
+border-radius:none !important;
+box-shadow:none !important;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff !important;
+}
+
+body {
+	color: #646366;
+}
+
+.btn-primary {
+	background-image: none;
+	border: 0px !important;
+	background-color: #70d9d0;
+
+}
+
+.btn-warning {
+		background-image: none;
+	border: 0px !important;
+	background-color: #70d9d0;
+}
+
+
+#firma-em {
+	padding-bottom: 35px !important;
+}
+
+.glyphicon  {
+	padding-right: 5px !important;
+}
+
+section {
+	margin-top: 40px !important;
+}
+
+.dropdown-menu li a:hover{
+	background-color:#70d9d0 !important;
+	background-image:none !important; 
+	}
+
+.dropdown-menu li a{
+	padding: 10px 10px;
+	}
+
+.divider {
+	margin: 0px !important;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: rgb(112, 217, 208);
+    color: rgb(255, 255, 255);
+    border: 0px;
+}
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff  !important;}
+
+    
+    
+
+@media(max-width:767px){
+	.dropdown-menu li a {
+    color: #fff !important;}
+}
+
+

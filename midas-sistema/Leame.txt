@@ -1,0 +1,19 @@
+MODULO ADMIN
+
+1) Agregar nuevo club en la tabla em_club
+2) Agrego al administrador del club en la tabla em_members
+3) Loguearse para acceder al sistema, no va a tener css definido aun.
+4) En la carpeta CSS duplicar el archivo midas.styl llamandolo por el nombre del subdominio del club y editar a gusto los colores.
+
+	Logo header 99x50 px
+
+
+MODULO CLIENTES
+
+1) Creo una carpeta con el nombre del subdominio del club
+2) Copio todo el contenido de la carpeta bioenergia
+
+----QUITADO AHORA EL SISTEMA ENTRA DIRECTO-------
+	3) En el archivo login.php reemplazo el nombre del css y del logo por el subdominio
+	4) Renombro el css con el nombre del subdominio y estilizo a gusto
+

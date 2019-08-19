@@ -1,0 +1,128 @@
+<!-- Google Fonts -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			$("input[name=color]").change(function(){
+				$('#color_panel').val($(this).val());
+				$('.input-color-label').val($(this).val());
+
+			});
+
+			$( "#nombre_club" ).focusout(function() {
+				var valor= $(this).val();
+				var divpadre= $(this).parent();
+
+				$.ajax({
+				    type: 'POST', 
+				    url: 'content/controllers/branko/verifica_club.php',
+				    data: {'nombre' : valor},       
+				    success: function(datos){
+				      
+				        if (datos == 1){
+				   
+						   divpadre.addClass(" has-error");
+						   divpadre.append('<label class="control-label" for="inputError">Nombre reservado por otro club</label>');
+						  }else{
+						  		divpadre.removeClass(" has-error");
+						  		var label=divpadre.find("label");
+						  		label.remove();
+						  }
+				       
+				    }
+				  });
+				
+
+			});
+
+			$( "#subdominio" ).focusout(function() {
+				var valor= $(this).val();
+				var divpadre= $(this).parent();
+
+				$.ajax({
+				    type: 'POST', 
+				    url: 'content/controllers/branko/verifica_subdominio.php',
+				    data: {'sub' : valor},       
+				    success: function(datos){
+				      
+				        if (datos == 1){
+				   
+						   divpadre.addClass(" has-error");
+						   divpadre.append('<label class="control-label" for="inputError">Subdominio reservado por otro club</label>');
+						  }else{
+						  		divpadre.removeClass(" has-error");
+						  		var label=divpadre.find("label");
+						  		label.remove();
+						  }
+				       
+				    }
+				  });
+				
+
+			});
+		});
+	</script>
+
+<div class="container">
+		<form id="form_altaclub" method="post" action="content/controllers/branko/controlador.php" class="">
+		
+			<div class="form-group row">
+			  <label for="nombre_club" class="col-sm-2 col-form-label label2">Nombre del club:</label>
+			  <div class="col-sm-8">
+		    	<input class="form-control" type="text" name="nombre_club" placeholder="Ej: miclub" id="nombre_club" required>
+		  	  </div> 
+		  	</div>
+
+			  <div class="form-group row">
+				  <label for="example-text-input2" class="col-sm-2 col-form-label label2">Subdominio:</label>
+				  <div class="col-sm-8">
+				    <input class="form-control" type="text" name="subdominio" placeholder="Ej: misubdominio" id="subdominio" required>
+				  </div>
+			  </div>
+			  <div class="form-group row">
+			  <label for="username" class="col-sm-2 col-form-label label2">Nombre usuario admin:</label>
+			  <div class="col-sm-8">
+		    	<input class="form-control" type="text" name="nombre_usuario" placeholder="Ej: usuario1" id="username" required>
+		  	  </div> 
+		  	</div>
+
+			  <div class="form-group row">
+				  <label for="pass_user" class="col-sm-2 col-form-label label2">Contraseña admin:</label>
+				  <div class="col-sm-8">
+				    <input class="form-control" type="text" name="contrauser" placeholder="Ej: pass_usuario" id="pass_user" required>
+				  </div>
+			  </div>
+
+			  <div class="form-group row">
+				  <label for="example-text-input3" class="col-sm-2 col-form-label label2">Color panel:</label>
+				  <div class="col-sm-8">
+				     <!--<input name="color" type="color" value="#f3f3f3" required>-->
+				     <input type="hidden" id="color_panel" name="color_panel" value="#92adca">
+
+				    	 <div class="input-color-container">
+						  <input name="color" id="input-color" value="#92adca" class="input-color" type="color" required>
+						</div>
+						<label class="input-color-label" for="input-color">
+						</label>
+				  </div>
+			  </div>
+			  <div class="form-group row text-center">
+			  <label for="logo" class="col-sm-10 col-form-label label2">Logo del club:</label>
+			  		<div class="col-sm-10">
+			  			<input type="file" id="logo" name="files" required>
+			  			<!--<input type="hidden" name="slogo_name" id="snombre_logo">-->
+			  			<input type="hidden" id="nombre_logo" name="logoo" >
+			  		</div>
+			  </div>
+
+			  <div class="form-group col-sm-10 text-center">
+			  <button type="submit" class="btn btn-success">Guardar club</button>
+			  </div>
+
+
+		</form>
+</div>
+<style type="text/css">
+	.label2{
+	    line-height: 27px;
+	}
+</style>

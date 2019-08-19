@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} oasisbeneficios.com [NC] 
+RewriteRule ^(.*)$ http://www.oasisbeneficios.com/oasis/$1 [L,NC,QSA]
